@@ -1,0 +1,10 @@
+.header {
+	padding: 24px 16px;
+	background-color: var(--light-salmon);
+	background-image: url(../../assets/images/pattern-light-bg.svg);
+
+	&__img {
+		max-width: 190px;
+		margin-bottom: 48px;
+	}
+}

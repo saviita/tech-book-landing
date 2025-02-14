@@ -1,0 +1,11 @@
+.user {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+
+	&__users {
+		max-width: 110px;
+	}
+}
