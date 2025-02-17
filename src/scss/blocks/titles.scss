@@ -1,34 +1,48 @@
 .title-l {
-	font-family: 'Martian Mono';
-	font-size: 38px;
-	font-weight: 700;
-	line-height: 120%;
-	letter-spacing: -2px;
+  font-family: 'Martian Mono';
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: -2px;
 }
 
 .title-m {
-	color: var(--dark-blue);
-	font-family: 'Martian Mono';
-	font-size: 34px;
-	font-weight: 600;
-	line-height: 130%;
-	letter-spacing: -2px;
+  color: var(--dark-blue);
+  font-family: 'Martian Mono';
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -2px;
 }
 
 .title-s {
-	color: var(--dark-blue);
-	font-family: 'Martian Mono';
-	font-size: 34px;
-	font-weight: 600;
-	line-height: 130%;
-	letter-spacing: -1px;
+  color: var(--dark-blue);
+  font-family: 'Martian Mono';
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -1px;
 }
 
 .title-xs {
-	color: var(--dark-blue);
-	font-family: 'Martian Mono';
-	font-size: 24px;
-	font-weight: 600;
-	line-height: 110%;
-	letter-spacing: -1px;
+  color: var(--dark-blue);
+  font-family: 'Martian Mono';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: -1px;
+}
+
+.title-surrounded {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: '';
+    top: 29px;
+    left: 80px;
+    height: 65px;
+    width: 160px;
+    background-image: url(./assets/images/pattern-circle.png);
+  }
 }

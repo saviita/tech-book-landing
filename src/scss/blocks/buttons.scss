@@ -1,11 +1,26 @@
 .button-primary {
-	padding: 20px 24px;
-	border-radius: 8px;
-	border: 2px solid var(--dark-blue);
-	background-color: var(--light-salmon);
-	font-family: 'Martian Mono';
-	font-size: 16px;
-	font-weight: 600;
-	line-height: 130%;
-	letter-spacing: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  padding: 20px 24px;
+  border-radius: 8px;
+  border: 2px solid var(--dark-blue);
+  background-color: var(--light-salmon);
+  font-family: 'Martian Mono';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 130%;
+  letter-spacing: -1px;
+}
+
+.button-arrow {
+  &::after {
+    display: block;
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-image: url(./assets/images/icon-arrow-down.svg);
+  }
 }

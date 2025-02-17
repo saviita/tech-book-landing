@@ -1,0 +1,41 @@
+.journey {
+  position: relative;
+  background-color: var(--light-salmon);
+  background-image: url(../../assets/images/pattern-light-bg.svg);
+  padding: 64px 16px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  overflow: hidden;
+
+  &::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    width: 600px;
+    height: 600px;
+    background-image: url(../../assets/images/pattern-glow.svg);
+  }
+
+  &__step {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 1;
+  }
+
+  &__number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--dark-blue);
+    border-radius: 4px;
+    width: 32px;
+    height: 32px;
+  }
+
+  &__text {
+    margin: 0;
+  }
+}

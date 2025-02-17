@@ -1,0 +1,25 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+  }
+
+  &__rrss {
+    display: none;
+  }
+}
