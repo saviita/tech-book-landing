@@ -25,7 +25,7 @@
             Turn your reading time into learning time with fellow tech enthusiasts. Get curated recommendations, join
             vibrant discussions, and level up your skills one chapter at a time.
           </p>
-          <button class="hero__btn button-primary button-arrow">REVIEW MEMBERSHIP OPTIONS</button>
+          <button class="hero__btn button button__primary button__arrow--down">REVIEW MEMBERSHIP OPTIONS</button>
 
           <div class="user hero__user">
             <img src="./assets/images/image-avatars.webp" alt="" class="user__users" />
@@ -77,7 +77,7 @@
 
       <section class="section">
         <div class="section__info">
-          <h2 class="section__title title-m title-surrounded">Not your average book club</h2>
+          <h2 class="section__title title-m">Not your average book <span class="title-surrounded">club</span></h2>
           <p class="section__text text-l">
             Connect with a community that speaks your language - from Python to TypeScript and everything in between.
             Our discussions blend technical depth with practical applications.
@@ -130,7 +130,7 @@
             </div>
           </div>
 
-          <button class="member__btn button-primary">SUBSCRIBE NOW</button>
+          <button class="member__btn button button__primary">SUBSCRIBE NOW</button>
         </div>
 
         <div class="member__card member__big">
@@ -149,7 +149,7 @@
             </div>
           </div>
 
-          <button class="member__btn button-primary">SUBSCRIBE NOW</button>
+          <button class="member__btn button button__primary">SUBSCRIBE NOW</button>
         </div>
 
         <div class="member__card">
@@ -168,7 +168,7 @@
             </div>
           </div>
 
-          <button class="member__btn button-primary">TALK TO US</button>
+          <button class="member__btn button button__primary">TALK TO US</button>
         </div>
       </section>
 
@@ -187,17 +187,18 @@
         </h3>
         <span class="review__name text-l">Sarah Chen, Software Architect</span>
       </section>
+    </main>
+    <footer class="footer">
+      <h2 class="footer__title title-m">Ready to debug your reading list?</h2>
 
-      <footer class="footer">
-        <div class="footer__info">
-          <h2 class="footer__title">Ready to debug your reading list?</h2>
-          <button class="footer__btn">REVIEW MEMBERSHIP OPTIONS</button>
+      <div class="footer__info">
+          <button class="footer__btn button button__secondary button__arrow--up">REVIEW MEMBERSHIP OPTIONS</button>
 
-          <div class="user">
+          <div class="user footer__user">
             <img src="./assets/images/image-avatars.webp" alt="" class="user__users" />
 
             <div class="user__score">
-              <div class="stars__s">
+              <div class="stars stars__s">
                 <img src="./assets/images/icon-star.svg" alt="" class="star" />
                 <img src="./assets/images/icon-star.svg" alt="" class="star" />
                 <img src="./assets/images/icon-star.svg" alt="" class="star" />
@@ -205,9 +206,10 @@
                 <img src="./assets/images/icon-star.svg" alt="" class="star" />
               </div>
 
-              <span class="user__fact text-s">200+ developers joined already</span>
+              <span class="user__fact footer__fact text-s">200+ developers joined already</span>
             </div>
           </div>
+        </div>
 
           <div class="footer__bottom">
             <span class="footer__name text-s">© 2024 – Tech Book Club</span>
@@ -216,9 +218,7 @@
               <img src="./assets/images/logo-linkedin.svg" alt="" />
             </div>
           </div>
-        </div>
       </footer>
-    </main>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>

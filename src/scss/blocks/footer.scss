@@ -1,0 +1,45 @@
+.footer {
+	background-color: var(--dark-blue);
+	background-image: url(../../assets/images/pattern-dark-bg.svg);
+	border-radius: 16px 16px 0 0;
+	padding: 48px 16px 0 16px;
+
+	&__title {
+		color: var(--white-01);
+		text-align: center;
+		margin: 0;
+		margin-bottom: 40px;
+	}
+
+	&__btn {
+		margin-bottom: 24px;
+	}
+
+	&__info {
+		margin-bottom: 64px;
+	}
+
+	&__fact {
+		color: var(--white-01);
+	}
+
+	&__bottom {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 16px;
+		padding: 24px 32px;
+		border-top: 1px solid var(--light-blue);
+		text-align: center;
+	}
+
+	&__name {
+		color: var(--white-01);
+	}
+
+	&__rrss {
+		display: flex;
+		flex-direction: row;
+		gap: 24px;
+	}
+}

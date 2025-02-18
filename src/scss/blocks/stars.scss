@@ -2,3 +2,13 @@
 	display: flex;
 	flex-direction: row;
 }
+
+.star {
+	width: 28px;
+	height: 28px;
+
+	&__s {
+		width: 24px;
+		height: 24px;
+	}
+}

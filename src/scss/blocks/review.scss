@@ -1,0 +1,10 @@
+.review {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	margin-bottom: 64px;
+
+	&__title {
+		margin: 0;
+	}
+}

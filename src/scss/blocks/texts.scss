@@ -18,6 +18,10 @@
 	font-weight: 600;
 	line-height: 130%;
 	letter-spacing: -1px;
+
+	@include responsive(tablet) {
+		font-size: 18px;
+	}
 }
 
 .text-s {
