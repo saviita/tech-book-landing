@@ -1,9 +1,15 @@
+@use '../mixins/responsive.scss' as *;
+
 .user {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	gap: 12px;
+
+	@include responsive(tablet) {
+		justify-content: start;
+	}
 
 	&__users {
 		max-width: 110px;

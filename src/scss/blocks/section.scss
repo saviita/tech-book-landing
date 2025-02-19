@@ -1,25 +1,31 @@
+@use '../mixins/responsive.scss' as *;
+
 .section {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
 
-  &__title {
-    margin-bottom: 24px;
-  }
+	@include responsive(laptop) {
+		flex-direction: row;
+	}
 
-  &__items {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-  }
+	&__title {
+		margin-bottom: 24px;
+	}
 
-  &__item {
-    display: flex;
-    flex-direction: row;
-    gap: 14px;
-  }
+	&__items {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
 
-  &__rrss {
-    display: none;
-  }
+	&__item {
+		display: flex;
+		flex-direction: row;
+		gap: 14px;
+	}
+
+	&__rrss {
+		display: none;
+	}
 }

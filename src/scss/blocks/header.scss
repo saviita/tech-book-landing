@@ -1,11 +1,21 @@
-.header {
-  padding: 24px 16px 80px 16px;
-  margin-bottom: 64px;
-  background-color: var(--light-salmon);
-  background-image: url(../../assets/images/pattern-light-bg.svg);
+@use '../mixins/responsive.scss' as *;
 
-  &__img {
-    max-width: 190px;
-    margin-bottom: 48px;
-  }
+.header {
+	padding: 24px 16px 80px 16px;
+	margin-bottom: 64px;
+	background-color: var(--light-salmon);
+	background-image: url(../../assets/images/pattern-light-bg.svg);
+
+	&__img {
+		max-width: 190px;
+		margin-bottom: 48px;
+	}
+
+	@include responsive(tablet) {
+		padding: 32px 32px 0 32px;
+	}
+
+	@include responsive(laptop) {
+		padding: 32px 135px 0 135px;
+	}
 }

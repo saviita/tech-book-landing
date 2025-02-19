@@ -1,22 +1,35 @@
+@use '../mixins/responsive.scss' as *;
+
 .hero {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 
-  &__title {
-    margin: 0;
-    margin-bottom: 24px;
-  }
+	@include responsive(laptop) {
+		flex-direction: row;
+	}
+	&__title {
+		margin: 0;
+		margin-bottom: 24px;
+	}
 
-  &__text {
-    margin: 0;
-    margin-bottom: 32px;
-  }
+	&__text {
+		margin: 0;
+		margin-bottom: 32px;
+	}
 
-  &__btn {
-    margin-bottom: 20px;
-  }
+	&__btn {
+		margin-bottom: 20px;
+	}
 
-  &__user {
-    margin-bottom: 64px;
-  }
+	&__user {
+		margin-bottom: 64px;
+	}
+
+	&__container {
+		max-width: 388px;
+	}
+
+	&__img {
+		width: 100%;
+	}
 }

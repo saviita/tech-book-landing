@@ -1,3 +1,5 @@
+@use '../mixins/responsive.scss' as *;
+
 .title-l {
 	font-family: 'Martian Mono';
 	font-size: 38px;
@@ -57,5 +59,10 @@
 		height: 65px;
 		width: 160px;
 		background-image: url(./assets/images/pattern-circle.png);
+
+		@include responsive(tablet) {
+			top: -3px;
+			left: -8px;
+		}
 	}
 }
