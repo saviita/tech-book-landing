@@ -8,6 +8,7 @@
 
 	@include responsive(tablet) {
 		padding: 0 32px;
+		gap: 80px;
 	}
 
 	@include responsive(laptop) {

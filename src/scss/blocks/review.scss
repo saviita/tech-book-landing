@@ -1,8 +1,14 @@
+@use '../mixins/responsive.scss' as *;
+
 .review {
 	display: flex;
 	flex-direction: column;
 	gap: 32px;
 	margin-bottom: 64px;
+
+	@include responsive(tablet) {
+		margin-bottom: 80px;
+	}
 
 	&__title {
 		margin: 0;
