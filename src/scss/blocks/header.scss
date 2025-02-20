@@ -12,10 +12,10 @@
 	}
 
 	@include responsive(tablet) {
-		padding: 32px 32px 0 32px;
+		padding: 32px 32px 80px 32px;
 	}
 
 	@include responsive(laptop) {
-		padding: 32px 135px 0 135px;
+		padding: 32px 135px 80px 135px;
 	}
 }
