@@ -13,6 +13,13 @@
 		margin-bottom: 24px;
 	}
 
+	&__info {
+		@include responsive(laptop) {
+			width: 50%;
+			flex-shrink: 0;
+		}
+	}
+
 	&__items {
 		display: flex;
 		flex-direction: column;

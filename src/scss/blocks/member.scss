@@ -3,6 +3,7 @@
 .member {
 	display: grid;
 	grid-template-columns: 1fr;
+	align-items: center;
 	gap: 24px;
 
 	@include responsive(tablet) {
@@ -77,6 +78,10 @@
 			height: 500px;
 			background-image: url(../../assets/images/pattern-glow.svg);
 			z-index: -1;
+		}
+
+		@include responsive(laptop) {
+			min-width: 302px;
 		}
 	}
 }

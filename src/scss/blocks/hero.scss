@@ -3,6 +3,7 @@
 .hero {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 	gap: 64px;
 
 	@include responsive(laptop) {
@@ -12,6 +13,11 @@
 	&__title {
 		margin: 0;
 		margin-bottom: 24px;
+	}
+
+	&__info {
+		width: 50%;
+		flex-shrink: 0;
 	}
 
 	&__text {

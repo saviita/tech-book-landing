@@ -45,6 +45,7 @@
 		}
 
 		@include responsive(laptop) {
+			justify-content: space-between;
 			flex-direction: row;
 			gap: 48px;
 		}
