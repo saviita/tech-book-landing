@@ -1,6 +1,7 @@
 @use '../mixins/responsive.scss' as *;
 
 .title-l {
+	color: linear-gradient(var(--dark-salmon), var(--dark-blue));
 	font-family: 'Martian Mono';
 	font-size: 38px;
 	font-weight: 700;

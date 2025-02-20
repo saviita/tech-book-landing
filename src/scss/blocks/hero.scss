@@ -3,10 +3,12 @@
 .hero {
 	display: flex;
 	flex-direction: column;
+	gap: 64px;
 
 	@include responsive(laptop) {
 		flex-direction: row;
 	}
+
 	&__title {
 		margin: 0;
 		margin-bottom: 24px;
@@ -19,10 +21,6 @@
 
 	&__btn {
 		margin-bottom: 20px;
-	}
-
-	&__user {
-		margin-bottom: 64px;
 	}
 
 	&__container {

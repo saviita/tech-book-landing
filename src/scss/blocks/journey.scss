@@ -29,6 +29,12 @@
 		}
 	}
 
+	&__title {
+		@include responsive(laptop) {
+			text-align: center;
+		}
+	}
+
 	&__steps {
 		display: flex;
 		flex-direction: column;
@@ -49,6 +55,7 @@
 		flex-direction: column;
 		gap: 20px;
 		z-index: 1;
+		max-width: 227px;
 	}
 
 	&__number {
